@@ -14,12 +14,12 @@
 </head>
 <body>
     <article>
-    <div class="container-fluid">
-            <section class="container mangasAll row offset-2">
+    <div class="container-fluid d-flex justify-content-center">
+            <section class="container mangasAll row pt-5">
                 <h2 class="pt-4">Mangás</h2>
                 <?php $registroManga = lerManga();
                 foreach ($registroManga as $registros) { ?>
-                <div class="col-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4">
                     <div class="cartao mb-3">
                         <img class="card-img-top" src="../../backend//banco//uploads/<?php echo $registros['imagem']?>" alt="Card image cap" height="298px" width="440px">
                         <div class="descricaoCard">

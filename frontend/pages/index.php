@@ -16,15 +16,14 @@
 
 <body>
     <article>
-        <h1>Acompanhando no momento</h1>
-        <div class="container-fluid">
-            <section class="container mangasAcompanhando row offset-2">
+        <div class="container-fluid d-flex justify-content-center">
+            <section class="container mangasAcompanhando row mt-3 ">
                 <h2 class="Mindex">Acompanhando:</h2>
                 <?php 
                 require '../../backend/banco/Lista/lerTudo.php';
                 $registroManga = ler();
                 foreach ($registroManga as $registros) { ?>
-                <div class="col-4">
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-4 col-xl-4 d-flex justify-content-center">
                     <div class="cartao mb-3">
                         <img class="card-img-top" src="../../backend//banco//uploads/<?php echo $registros['imagem']?>" alt="Card image cap" height="298px" width="440px">
                         <div class="descricaoCard">
@@ -38,6 +37,7 @@
                 </div>
                 <?php } ?>
             </section>
+        </div>
     </article>
     <!-- JavaScript Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>

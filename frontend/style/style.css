@@ -17,6 +17,7 @@
 --fundo-footer: rgb(235, 235, 235);
 --linha-menu: rgb(19, 18, 18);
 --descriptionFont: rgb(86, 87, 86);
+--boxShadow: rgb(19, 18, 18);
 }
 
 *{
@@ -206,14 +207,15 @@ p{
     border-radius: 20px;
     margin-top: 50px;
     margin-bottom: 50px;
-    box-shadow: 0 0 1em var(--text);
+    box-shadow: 0 0 1em var(--boxShadow);
     background-color: var(--fundo);
+
 }
 
 .doramasAcompanhando{
     border: solid 1px lightgrey;
     border-radius: 20px;
-    box-shadow: 0 0 1em var(--text);
+    box-shadow: 0 0 1em var(--boxShadow);
     background-color: var(--fundo);
 }
 
@@ -226,7 +228,7 @@ p{
 .ConteudoCad{
     border: 1px solid black;
     border-radius: 20px;
-    box-shadow: 0 0 1em black;
+    box-shadow: 0 0 1em var(--boxShadow);
     margin-top: 100px;
     padding: 20px;
     background-color: var(--fundo);
@@ -255,6 +257,7 @@ body.dark-theme{
     --fundo-footer: rgb(22, 22, 22);
     --linha-menu: rgb(255, 255, 255);
     --descriptionFont: rgb(172, 252, 52);
+    --boxShadow: rgb(255, 255, 255);
 }
 
 .cartao{

@@ -20,6 +20,7 @@
         </button>
         <section class="nav-slide" id="nav-slide">
             <ul>
+                <li><a href="./index.php">Home</a></li>
                 <li><a href="./manga.php">Mangas</a></li>
                 <li><a href="./dorama.php">Doramas</a></li>
                 <li><a href="./cadastro.php">Cadastro</a></li>
@@ -27,6 +28,7 @@
         </section>
         <nav class="menu col-sm-8 col-md-8 col-lg-8">
             <div>
+                <a href="./index.php">Home</a>
                 <a href="./manga.php">Mangas</a>
                 <a href="./dorama.php">Doramas</a>
                 <a href="./cadastro.php">Cadastro</a>
