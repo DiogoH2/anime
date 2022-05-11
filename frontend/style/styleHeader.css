@@ -1,0 +1,55 @@
+@import url('https://fonts.googleapis.com/css2?family=Tapestry&display=swap');
+
+body{
+    margin: 0;
+    font-family: 'Tapestry', cursive;
+    background-color: black;
+}
+
+.cabecalho{
+    background-color: greenyellow;
+    color: black;
+    border-bottom: solid 5px black;
+    height: 80px;
+}
+
+.logo img{
+    height: 50px;
+}
+
+.menu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+.cabecalho a{
+    text-decoration: none;
+    color: black;
+    font-size: 1em;
+    padding: 10px 15px;
+}
+
+.menu a:hover{
+    color:white ;
+}
+
+/* flex box */
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.menu{
+    flex-grow: 10;
+}
+
+.menu ul{
+    display: flex;
+}
+
+.menuu li{
+    margin: 0px 10px;
+}
